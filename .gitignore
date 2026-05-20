@@ -1,0 +1,22 @@
+# 密钥与本地配置（切勿提交）
+.env
+*.key
+*_secret*
+.mimo_local*
+.mimo_*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 用户误保存的聊天脚本副本（若含 Key）
+.bashrc
+.bash_history
