@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/)
 
-**小米 MiMo 助手** 是一款专为 Linux / 树莓派终端打造的**轻量级终端代码助手**。拒绝繁重的第三方 Agent 框架，仅用两百余行纯原生 Python，对接小米 MiMo 对话 API，在命令行里完成流式问答、读改代码与命令执行。
+**小米 MiMo 助手** 是一款专为 Linux / 树莓派终端打造的**轻量级终端代码助手**。拒绝繁重的第三方 Agent 框架，仅用几百行纯原生 Python，对接小米 MiMo 对话 API，在命令行里完成流式问答、读改代码与命令执行。
 
 > **当前开源版本：1.0 Agent Mode**（本仓库 `mimo_chat.py`）：流式对话 + 目录/读文件/改文件/跑命令 + 安全网关。
 
