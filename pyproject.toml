@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mimo-terminal-helper"
+version = "2.0.0"
+description = "轻量级终端代码助手，支持多节点管理与智能上下文记忆压缩"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "requests>=2.25.0",
+]
+
+[project.scripts]
+mimo = "mimo_chat:main"
+
+[tool.hatch.build.targets.wheel]
+py-modules = ["mimo_chat"]

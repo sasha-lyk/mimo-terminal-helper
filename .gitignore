@@ -3,12 +3,18 @@
 *.key
 *_secret*
 .mimo_local*
+.mimo_config.json
 .mimo_*.log
+
+# 本地安装产物（勿提交）
+*.egg-info/
+dist/
+build/
+.venv/
 
 # Python
 __pycache__/
 *.py[cod]
-.venv/
 venv/
 
 # 系统与编辑器
